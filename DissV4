@@ -15,7 +15,7 @@ if not isfile("Nitrous") then
  
  local menu = game:GetObjects("rbxassetid://17553739841")[1] 
  local tabholder = menu.BG.main.group;
- local tabviewer = menu.BG.BA.tabbuttons;
+ local tabviewer = menu.BG.BU.tabbuttons;
  for _, obj in pairs(menu:GetDescendants()) do
     if obj.Name:lower():find('userlabel') then
         obj.Text = 'active user: <font color="rgb(202, 82, 147)">' .. game.Players.LocalPlayer.Name .. '</font>'
